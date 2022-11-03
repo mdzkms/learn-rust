@@ -17,7 +17,7 @@ You can work from scratch or use an existing project.
 Let `cargo` generate the new project directory and files.
 
 ```bash
-$ docker run --rm --user "$(id -u)":"$(id -g)" -v "$PWD":/usr/src/grrs -w /usr/src/grrs rust cargo new PROJECT_NAME
+$ docker run --rm --user "$(id -u)":"$(id -g)" -v "$PWD":/usr/src/PROJECT_NAME -w /usr/src/PROJECT_NAME rust cargo new PROJECT_NAME
 ```
 
 ### Work with existing code
